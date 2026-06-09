@@ -5,9 +5,7 @@
 ## Usage
 
 ```yaml
-- uses: Framework-R-D/action-complete-pr-comment@v1  # pin to commit SHA in production
-  with:
-    input-name: value
+- uses: Framework-R-D/action-complete-pr-comment@b018afa43e5bf24dc76000e9c9f831ad60dea5ad # v1
 ```
 
 ## Inputs
