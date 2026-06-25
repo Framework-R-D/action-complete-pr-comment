@@ -5,7 +5,7 @@
 ## Usage
 
 ```yaml
-- uses: Framework-R-D/action-complete-pr-comment@b018afa43e5bf24dc76000e9c9f831ad60dea5ad # v1
+- uses: Framework-R-D/action-complete-pr-comment@8591587d60acdd9d4d7a84bd99d81abce82ca420 # v2
   with:
     input-name: value
 ```
