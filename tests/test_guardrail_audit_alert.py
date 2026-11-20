@@ -216,6 +216,8 @@ class GuardrailAlertTests(unittest.TestCase):
         self.assertIn(message, payload["text"])
         self.assertIn('actor"\\\n', payload["text"])
         self.assertNotIn("--location", curl)
+        self.assertEqual(curl[curl.index("--connect-timeout") + 1], "10")
+        self.assertEqual(curl[curl.index("--max-time") + 1], "30")
 
     def test_workflow_uses_real_event_context(self) -> None:
         """Catch the unsupported-context defect that shell-only tests cannot see."""
